@@ -1,0 +1,165 @@
+﻿<!doctype html>
+
+<html>
+<head>
+    <title>S0mebody</title>
+</head>
+
+<body>
+    <table cellpadding="1" cellspacing="0" border="1">
+        <tr>
+            <td width="150" align="right">
+                <label for="LastName">Last name:</label>
+            </td>
+            <td style="width:250px" colspan="3">
+                <input type="text" name="LastName" id="LastName" placeholder="Enter your last name" style="width:250px"></input>
+            </td>
+        </tr>
+        <tr>
+            <td width="150" align="right">
+                <label for="FirstName">First name:</label>
+            </td>
+            <td style="width:250px" colspan="3">
+                <input type="text" name="FirstName" id="FirstName" placeholder="Enter your first name" style="width:250px"></input>
+            </td>
+        </tr>
+        <tr height="75px">
+            <td width="150" align="right">
+                <label for="Address">Address:</label>
+            </td>
+            <td style="width:250px" colspan="3">
+                <textarea type="text" name="Address" id="Address" style="width:250px"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td width="150px" align="right">
+                <label for="city">City:</label>
+            </td>
+            <td>
+                <input type="text" name="city" id="city" style="width:75px" />
+            </td>
+            <td align="right">
+                <label for="state">State:</label>
+            </td>
+            <td>
+                <input type="text" name="state" id="state" style="width:75px" />
+            </td>
+        </tr>
+        <tr>
+            <td width="150px" align="right">
+                <label for="zip">Zip/Postal Code:</label>
+            </td>
+            <td width="250px" colspan="3">
+                <input type="text" name="zip" id="zip" style="wdith:25px">
+            </td>
+        </tr>
+        <tr>
+            <td width="150px" align="right">
+                <label>Country:</label>
+            </td>
+            <td width="250px" colspan="3">
+                <select name="country" id="country">
+                    <option value="blank" selected>Choose your country</option>
+                    <option value="BG">Bulgaria</option>
+                    <option value="DE">Deutschland</option>
+                    <option value="FR">Frankreich</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td width="150px" align="right">
+                Phone
+                <label for="CountryCode">(country code,</label>
+                <label for="AreaCode">area code, </label>
+                <label for="Number">number)</label>
+
+            </td>
+            <td width="250px" colspan="3">
+                (+
+                <input type="text" name="CountryCode" id="CountryCode" style="width:45px"></input>
+                )
+                <input type="text" name="AreaCode" id="AreaCode" style="width:45px"></input>
+                -
+                <input type="text" name="Number" id="Number" style="width:45px"></input>
+            </td>
+        </tr>
+        <tr>
+            <td width="150px" align="right">
+                <label for="email">E-mail:</label>
+            </td>
+            <td width="250px" colspan="3">
+                <input type="text" id="email" name="email" style="width:200px"></input>
+            </td>
+        </tr>
+        <tr>
+            <td width="150px" align="right">Birth date</td>
+            <td width="250px" colspan="3">
+                <label for="month">Month</label>
+                <input type="text" id="month" name="month" style="width:40px"></input>
+                <label for="day">Day</label>
+                <input type="text" id="day" name="day" style="width:40px"></input>
+                <label for="year">Year</label>
+                <input type="text" id="year" name="year" style="width:40px"></input>
+            </td>
+        </tr>
+        <tr>
+            <td width="150px" align="right">
+                <label for="gender">Gender:</label>
+            </td>
+            <td width="250px" colspan="3">
+                <select type="text" id="gender" name="gender">
+                    <option selected></option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td width="150px" align="right">Starting date</td>
+            <td width="250px" colspan="3">
+                <input type="radio" name="starting" value="spring" id="spring"></input>
+                <label for="spring">Spring 2006</label>
+                <input type="radio" name="starting" value="summer" id="summer"></input>
+                <label for="summer">Summer 2006</label>
+            </td>
+        </tr>
+        <tr>
+            <td width="150px" align="right"
+                <label for="comment">Comments/Questions</label>
+            </td>
+            <td width="250px" colspan="3">
+                <textarea name="comments" id="comments" style="height:50px; width:250px"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4" align="center">
+                <button type="submit" value="Submit">Submit</button>
+                <input type="button" value="Clear this form" onclick="history.go()"></input>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
