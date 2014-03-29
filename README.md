@@ -1,15 +1,16 @@
-CSharpPart1
+HTML
 ===========
 
-This repository holds my home works for:
-Telerik Academy - C# part 1 (October 2013 - December 2013)
+This repository holds my homeworks for:
+Telerik Academy - HTML (March 2014)
 
 Course Program
 
-* Introduction to Programming
-* Primitive Data Types and Variables
-* Operators, Expressions and Statements
-* Console Input/Output
-* Conditional Statements
-* Loops
+* Web Design and UI Technologies
+* Web Technologies Basics
+* Web Design Tools
+* HTML 5
+* HTML Tables
+* HTML Forms and Frames
+* Semantic Web
 
